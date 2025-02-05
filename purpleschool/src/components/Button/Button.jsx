@@ -1,9 +1,15 @@
 import './Button.css'
 
 function Button ({text}) {
+
+	const clicked = () => {
+		alert('Поиск')
+	}
+
+
 	return (
 		<>
-			<button className="button">{text}</button>
+			<button onClick={clicked} className="button">{text}</button>
 		</>
 	)
 }
