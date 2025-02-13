@@ -1,18 +1,18 @@
+import Rating from '../Rating/Rating';
 import './Card.css'
-import star from '/src/assets/star.svg'; 
 import like from '/src/assets/like.svg'; 
+import TitleCard from '../TitleCard/TitleCard';
+import CardImage from '../CardImage/CardImage';
 
 
 function Card ({title, rating, image, favorite}) {
 	return (
 		<>
 			<div className="card">
-				<img className='card__img' src={image} alt="Постер" />
-					<span className='card__rating'>
-						<img className='card__icon' src={star} alt="star" />
-						{rating}</span>
+				<CardImage src={image} />
+					<Rating number={rating}/>
 				<div className='card__content'>
-					<h2 className='card__title'>{title}</h2>
+					<TitleCard text={title} />
 					<button className='card__favorite'>
 					<img className='card__icon' src={like} alt="like" />
 					{favorite}

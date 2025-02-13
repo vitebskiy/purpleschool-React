@@ -1,0 +1,11 @@
+.rating {
+	position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  left: 16px;
+  top: 16px;
+  padding: 4px 8px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.65);
+}

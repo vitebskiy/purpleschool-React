@@ -5,10 +5,10 @@ import './Header.css'
 function Header () {
 	return (
 		<>
-			<div className="header">
+			<header className="header">
 				<Favorites />
 				<Nav />
-			</div>
+			</header>
 		</>
 	)
 }

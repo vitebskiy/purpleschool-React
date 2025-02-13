@@ -3,7 +3,7 @@ import './Nav.css'
 function Nav () {
 	return (
 		<>
-			<div className="nav">
+			<nav className="nav">
 				<ul className="nav__list">
 					<li className="nav__item">
 						<a href="#!" className="nav__link">Поиск фильмов</a>
@@ -15,7 +15,7 @@ function Nav () {
 						<a href="#!" className="nav__link">Войти <img src="/sign-in.svg" alt="Иконка войти" /></a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 		</>
 	)
 }
