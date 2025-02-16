@@ -1,9 +1,9 @@
-import "./TitleCard.css";
+import styles from "./TitleCard.module.css";
 
 function TitleCard({ text }) {
   return (
     <>
-      <h2 className="card-title">{text}</h2>
+      <h2 className={styles["card-title"]}>{text}</h2>
     </>
   );
 }

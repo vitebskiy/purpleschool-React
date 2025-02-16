@@ -11,6 +11,11 @@
   color: #ebeef5;
 }
 
+.search__row {
+  display: flex;
+  gap: 8px;
+}
+
 .search__input {
   max-width: 384px;
   width: 100%;
