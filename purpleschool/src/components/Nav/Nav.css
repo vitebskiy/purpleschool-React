@@ -1,0 +1,38 @@
+.nav__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav__item {
+  padding: 12px 32px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #a8aebf;
+}
+
+.nav__count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #7b6ef6;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
